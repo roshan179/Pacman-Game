@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+body
+{
+  background-image: url("vibe.jpg");
+}
+.game{
+  margin-left: 500px;
+  margin-bottom: 100px;
+  background-color: #3E065F;
+  position: absolute;
+  text-align: center;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 560px;
+    height: 560px;
+    justify-content: center;
+}
+.logo
+{
+  margin:10px;
+}
+
+.score{
+  color:white;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+}
+
+.pac-dot {
+    background-color: #D1E8E4;
+    border: 7.2px solid #3E065F;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.wall {
+    background-color: blue;
+}
+
+.power-pellet {
+    background-color: #FFF7AE;
+    border-radius: 50%;
+    /*border: 1px solid #3E065F;*/
+}
+
+.blinky {
+    background-color: red;
+}
+
+.pinky {
+    background-color: pink;
+}
+
+.inky {
+    background-color: cyan;
+}
+
+.clyde {
+    background-color: orange;
+}
+
+.pac-man {
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.scared-ghost {
+    background-color: #193498;
+}
+.reset
+{
+  font-family: 'Patrick Hand', cursive;
+}
+.quit
+{
+  font-family: 'Patrick Hand', cursive;
+}
+.click
+{
+  margin:50px;}
